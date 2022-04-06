@@ -27,7 +27,14 @@
                     <input class="contactus" placeholder="Password" type="text" name="Email">
                   </div>
                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <button class="send">Enter</button> <button class="send">Sign Up</button>
+                    <script type="text/javascript">
+                        document.getElementById("myButton").onclick = function () {
+                            location.href = "signup.html";
+                        };
+                    </script>
+                    <button class="send">Enter</button> <button id="myButton" class="float-left submit-button" >Sign Up</button>
+
+                    
                   </div>
                 </div>
               </form>
